@@ -58,7 +58,14 @@ section{
     padding:0 10px 10px 0;
     flex: 1 1 auto;
 }
-.sidebar{
+.sidebar1{
+    padding:20px 40px;	
+    border:1px solid #ccc;
+    border-radius:8px;
+    margin-top: 70px;
+    flex:0 0 200px;
+ }
+.sidebar2{
     padding:20px 40px;	
     border:1px solid #ccc;
     border-radius:8px;
@@ -108,4 +115,9 @@ dt:first-child{
 }
 dd{
     padding: 0 0 20px 0;
+}
+
+.left-float{
+    float:left;
+    padding:0 15px 15px 0;
 }
